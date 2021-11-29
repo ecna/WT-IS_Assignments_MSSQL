@@ -8,12 +8,10 @@ $db = maakVerbinding();
 $query = 'select * from Genre';
 
 $data = $db->query($query);
-$temp = $data->fetch();
 
 $genre_table = "";
 
 while($rij = $data->fetch()) {
-    
   $genre = $rij['genrenaam'];
   $genre_table = $genre_table . $genre . "<br>";
 }
