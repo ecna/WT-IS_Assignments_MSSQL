@@ -1,6 +1,6 @@
 {
     "recommendations": [
-        "felixfbecker.php-debug",
+        "xdebug.php-debug",
         "ms-azuretools.vscode-docker",
         "bmewburn.vscode-intelephense-client"
     ]
